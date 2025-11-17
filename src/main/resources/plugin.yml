@@ -1,0 +1,12 @@
+name: VeinSmelt
+version: '1.0-SNAPSHOT'
+main: net.somyk.veinsmelt.VeinSmelt
+api-version: '1.21'
+
+commands:
+  rune:
+    description: "Get a specified rune"
+    usage: "/rune <player> <type>"
+    aliases: []
+    permission: "rune.give"
+    permission-message: "You don't have permission to do that"
